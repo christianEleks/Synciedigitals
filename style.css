@@ -124,6 +124,7 @@ section.landing{
     background-size:cover;
     background-position:center;
     background-blend-mode: darken;
+    background-repeat: no-repeat;
 }
 .fa-brands{
     color: whitesmoke;
@@ -640,6 +641,12 @@ section.services .container .service{
 }
 section.testimonials .container{
     width: 90%;
+}
+.bell{
+    font-size: 1.3rem;
+}
+.mark{
+    font-size: 1.8rem;
 }
 
 }
