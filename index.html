@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Syncie Digitals">
+    <title>Syncie Digitals</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" >
+
+    <script src="./syncie.js" type="text/JavaScript"></script>
+
+    <!--stylesheet-->
+    <link rel="stylesheet" href="./style.css">
+
+    <!---------------swiperjs------------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+     <!---fontawesome-->
+    <script src="https://kit.fontawesome.com/a6e25eb83d.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+<body onload="Load()">
+   <nav class="bellbar">
+        <h3 class="logit" style="color:whitesmoke">Syncie <span style="color:rgb(73, 73, 209)">Digitals</span></h3>
+        
+        <ul id="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        </ul>
+        
+          <i class="fa-solid fa-bars" onclick="mainNav()" id="me"></i>
+    </nav>
+
+   <!--------------------END OF NAVBAR---------------------------->
+
+   <section class="landing">
+    <div class="container">
+        <div class="socials">
+           
+            <a href="https://www.instagram.com/leonardchristian47/" target="_blank"><i class="fa-brands fa-instagram"></i></i></a>
+            <a href="https://wa.link/veelds" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/christian-elekwachi" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+        <div class="info">
+            <h1>Full stack Web Developer, Graphic Designer & Product Video Ads Creator</h1>
+            <h3>I'm Christian Elekwachi</h3>
+            <p>Young, determined full stack developer, app developer, graphics designer and product video ads creator. I help businesses and brands grow by creating professional websites, apps, designs and videos for advertisement.
+                I am motivated by outcomes and solutions in order to streamline processes and boost productivity. </p>
+               <a href="#contact" class="btn btn-primary">Let's Talk</a>
+        </div>
+        <div class="profile">
+            <div class="outer-circle">
+                <i class="fa-brands fa-html5 bell"></i>
+                <i class="fa-brands fa-react bell"></i>
+                <i class="fa-brands fa-python bell"></i>
+                <i class="fa-brands fa-css3 bell"></i>
+            </div>
+            <div class="inner-circle">
+              <img src="./images/meee.jpg" height="400px">
+            </div>
+        </div>
+    </div>
+   </section>
+   
+   <!-------------------------END OF LANDING--------------------------->
+
+   <section class="about reveal" id="about">
+     <h1 style="color: black;">About</h1>
+     <div class="container">
+        <div class="image">
+            <img src="./images/mee.jpg" alt="image" height="550px">
+        </div>
+
+        <div class="info">
+            <p style="color: black;">I'm Christian Elekwachi, young, determined full stack developer, graphics designer and product video ads creator. I help businesses and brands grow by creating professional designs, videos and websites for advertisement. </p>
+
+                 <p style="color: black;">My areas of expertise include: front-end development, video editing, graphic designs, facebook advertisement
+
+                    I am motivated by outcomes and solutions. In order to streamline processes and boost productivity.</p>
+
+                    <div class="read-more" id="read-more">
+                        <p style="color: black;">As a self-starter with a keen ability to anticipate and meet the needs of my executives, team, and stakeholders, I am also well known for my prompt and excellent delivery, excellent oral and written communication skills, and self-motivation. </p>
+
+                           <p style="color: black;"> I look for opportunities where I can use my skills to their fullest, keep learning, and help the executive and organization succeed. </p>
+                    </div>
+                    <a class="read" onclick="myFun()" id="meat">Show More</a>
+                    <a href="./images/My resume.pdf" class="btn" download target="_blank"><i class="fa-solid fa-download"></i>  Download resume</a>
+        </div>
+     </div>
+   </section>
+   <!-------------------------END OF ABOUT------------------------>
+
+   <section id="skills reveal" class="skills">
+    <h1 style="color: black;">Skills</h1>
+    <div class="container reveal">
+        <div class="skill">
+            <div class="head">
+                <div class="left">
+                    <i class="fa-solid fa-code" style="color: white;"></i>
+                    <h4 style="color: white;">Frontend Web Development</h4>  
+                </div>
+                <i class="fa-solid fa-chevron-down" style="color: white;" onclick="myClose()"></i>
+            </div>
+
+            <div class="items" id="beans">
+              <div class="item">
+                <h5 style="color: black;">HTML</h5>
+                <div class="progress-area">
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                    <h5 style="color: black;">82%</h5>
+                </div>
+              </div>  
+
+              <div class="item">
+                <h5 style="color: black;">CSS</h5>
+                <div class="progress-area">
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                    <h5 style="color: black;">82%</h5>
+                </div>
+              </div>  
+
+              <div class="item">
+                <h5 style="color: black;">JavaScript</h5>
+                <div class="progress-area">
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                    <h5 style="color: black;">75%</h5>
+                </div>
+              </div>  
+
+              <div class="item">
+                <h5 style="color: black;">React.js</h5>
+                <div class="progress-area">
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                    <h5 style="color: black;">75%</h5>
+                </div>
+              </div>  
+
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="head">
+                <div class="left">
+                    <i class="fa-solid fa-code" style="color: white;"></i>
+                    <h4 style="color: white;">Backend Web Development</h4>  
+                </div>
+                <i class="fa-solid fa-chevron-down" style="color: white;" onclick="myClosed()"></i>
+            </div>
+
+            <div class="items" id="bean">
+              <div class="item">
+                <h5 style="color: black;">MongoDB</h5>
+                <div class="progress-area">
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                    <h5 style="color: black;">82%</h5>
+                </div>
+              </div>  
+
+              <div class="item">
+                <h5 style="color: black;">Express.js</h5>
+                <div class="progress-area">
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                    <h5 style="color: black;">62%</h5>
+                </div>
+              </div>  
+
+              <div class="item">
+                <h5 style="color: black;">Node.js</h5>
+                <div class="progress-area">
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                    <h5 style="color: black;">62%</h5>
+                </div>
+              </div>  
+
+              <div class="item">
+                <h5 style="color: black;">PHP</h5>
+                <div class="progress-area">
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                    <h5 style="color: black;">52%</h5>
+                </div>
+              </div>  
+
+            </div>
+        </div>
+        
+        <div class="skill">
+            <div class="head">
+                <div class="left">
+                    <i class="fa-solid fa-code" style="color: white;"></i>
+                    <h4 style="color: white;">Product video ads</h4>  
+                </div>
+                <i class="fa-solid fa-chevron-down" style="color: white;" onclick="myOpen()"></i>
+            </div>
+
+            <div class="items" id="bea">
+              <div class="item">
+                <h5 style="color: black;">Adobe premier pro</h5>
+                <div class="progress-area">
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                    <h5 style="color: black;">82%</h5>
+                </div>
+              </div>  
+
+              <div class="item">
+                <h5 style="color: black;">Adobe after effect</h5>
+                <div class="progress-area">
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                    <h5 style="color: black;">62%</h5>
+                </div>
+              </div>  
+
+              <div class="item">
+                <h5 style="color: black;">Kinemaster</h5>
+                <div class="progress-area">
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                    <h5 style="color: black;">72%</h5>
+                </div>
+              </div>  
+
+              <div class="item">
+                <h5 style="color: black;">Inshot</h5>
+                <div class="progress-area">
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                    <h5 style="color: black;">92%</h5>
+                </div>
+              </div>  
+
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="head">
+                <div class="left">
+                    <i class="fa-solid fa-code" style="color: white;"></i>
+                    <h4 style="color: white;">Graphics design</h4>  
+                </div>
+                <i class="fa-solid fa-chevron-down" style="color: white;" onclick="myOpened()"></i>
+            </div>
+
+            <div class="items" id="be">
+              <div class="item">
+                <h5 style="color: black;">Canva</h5>
+                <div class="progress-area">
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                    <h5 style="color: black;">92%</h5>
+                </div>
+              </div>  
+
+              <div class="item">
+                <h5 style="color: black;">Pixelab</h5>
+                <div class="progress-area">
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                    <h5 style="color: black;">72%</h5>
+                </div>
+              </div>  
+
+              <div class="item">
+                <h5 style="color: black;">Photoshop</h5>
+                <div class="progress-area">
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                    <h5 style="color: black;">62%</h5>
+                </div>
+              </div>  
+
+              <div class="item">
+                <h5 style="color: black;">Snapseed</h5>
+                <div class="progress-area">
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                    <h5 style="color: black;">92%</h5>
+                </div>
+              </div>  
+
+            </div>
+        </div>
+
+    </div>
+   </section>
+   <!----------------------END OF SKILLS---------------------------->
+
+   <section class="services reveal" id=services>
+    <h1 style="color: black;">Services</h1>
+    <div class="container reveal">
+        <div class="service">
+            <i class="fa-brands fa-html5 bell" style="color: white;"></i> 
+            <h3 style="color: white;">Web development</h3>
+            <p style="color: white;">Design and establish user friendly website that guarantees high traffic, page views and
+                maximum user experience.</p>
+        </div>
+
+        <div class="service">
+            <i class="fa-solid fa-video"></i>
+            <h3 style="color: white;">Graphics design</h3>
+            <p style="color: white; ">Creating visual and advertising content for various media including business cards, flyers,
+                posters, banners etc.</p>
+        </div>
+
+        <div class="service">
+            <i class="fa-solid fa-pencil"></i>
+            <h3 style="color: white;">Product video ads</h3>
+            <p style="color: white;">Creating and editing videos for advertising sales products alongside social media distribution.  </p>
+        </div>
+    </div>
+   </section>
+
+   <section class="recent-work reveal" id="portfolio">
+   <div class="container reveal" style="width: 100%; ">
+    <div style="text-align: center;">
+        <h2 style="color: black;"> Works</h2>
+        <h3 style="color: black;margin: 1rem 0;">Web & Software Development</h3>
+        <div class="line"></div>
+    </div>
+
+    <div class="projects">
+        <div class="project">
+            <div class="thumbnail">
+            <img src="./images/bat.jpg" alt="Leopeige" style="object-fit: contain;width: 80%;"/>
+            </div>
+            <h4 style="color: black;margin: 1rem;">Leopeige cleaning services</h4>
+            <a href="https://christianeleks.github.io/neat/Leopeige%20Cleaning/" target="blank" style="font-weight: bold; color:rgb(73, 73, 209);" class="bell">Github live demo</a>
+        </div>
+
+        <div class="project">
+            <div class="thumbnail">
+            <img src="./images/bd.jpg" alt="Syncie Digitals" style="object-fit: contain;width: 80%;"/>
+            </div>
+            <h4 style="color: black;margin: 1rem;"> Syncie Digitals</h4>
+            <a href="https://christianeleks.github.io/Synciedigitals/" target="blank" style="font-weight: bold; color:rgb(73, 73, 209);"class="bell">Github live demo</a>
+        </div>
+
+        <div class="project">
+            <div class="thumbnail">
+            <img src="./images/weather.jpg" alt="Web application" style="object-fit: contain;width: 80%;"/>
+            </div>
+            <h4 style="color: black;margin: 1rem;">Web application</h4>
+            <a href="https://christianeleks.github.io/Weatherapp/" style="font-weight: bold; color:rgb(73, 73, 209);" class="bell">Github live demo</a>
+        </div>
+    </div><br> <br><br>
+
+        <h3 style="color: black;margin: 1rem 0; text-align: center;" class="reveal">Graphics Designs</h3>
+        <div class="line"></div>
+    <div class="projects reveal">
+        <div class="project">
+            <div class="thumbnail">
+            <img src="./images/Max-03.jpeg" alt="Flyer" style="object-fit: contain;width: 100%; height: 350px;"/>
+            </div>
+            <h4 style="color: black;margin: 1rem;">Flyer</h4>
+        </div>
+
+        <div class="project">
+            <div class="thumbnail">
+            <img src="./images/book.png" alt="Ebook cover" style="object-fit: contain;width: 100%;height: 350px;"/>
+            </div>
+            <h4 style="color: black;margin: 1rem;"> Ebook cover</h4>
+        </div>
+
+        <div class="project">
+            <div class="thumbnail">
+            <img src="./images/bird.jpeg" alt="Flyer" style="object-fit: contain;width: 100%;height: 350px;"/>
+            </div>
+            <h4 style="color: black;margin: 1rem;">Flyer</h4>
+        </div>
+    </div>
+
+    <h3 style="color: black;margin: 1rem 0; text-align: center;" class="reveal">Product Video Ads</h3>
+        <div class="line"></div>
+    <div class="projects reveal">
+        <div class="project">
+            <div class="thumbnail">
+                <video controls style="object-fit: contain;width: 100%;height: 350px;">
+                    <source src="./images/leopeige sneakers.mp4" type="video/mp4">
+                  </video>
+            </div>
+            <h4 style="color: black;margin: 1rem;">Video ads</h4>
+        </div>
+
+        <div class="project">
+            <div class="thumbnail">
+                <video controls  style="object-fit: contain;width: 100%;height: 350px;">
+                    <source src="./images/Connect 2.mp4" type="video/mp4">
+                  </video>
+            </div>
+            <h4 style="color: black;margin: 1rem;"> App promo video</h4>
+        </div>
+
+        <div class="project">
+            <div class="thumbnail">
+                <video controls  style="object-fit: contain;width: 100%;height: 350px;">
+                    <source src="./images/LR.mp4" type="video/mp4">
+                  </video>
+            </div>
+            <h4 style="color: black;margin: 1rem;">Video ads</h4>
+        </div>
+    </div>
+
+
+   </div>
+   </section>
+
+   <!--------------------------------END OF PORTFOLIO--------------------------------------->
+
+   <section class="testimonials reveal">
+    <h1 style="color: black; font-size: 2.8rem;">Testimonials</h1>
+    <div class="container swiper mySwiper reveal">
+        <div class="carousel swiper-wrapper">
+            <div class="testimonial swiper-slide">
+            <div class="head">
+            <div class="profile">
+              <div class="avatar">
+                <img src="./images/seed.png" />
+              </div>
+              <div class="info">
+                <h4 style="color:black">Leona Chidera</h4>
+                <small style="color:black"> Verterinary Doctor</small>
+              </div>
+            </div>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            </div>
+
+            <p style="color:black">I just wanted to share a quick note and let you know that you did a <br>
+                really good job on the flyers and I'm glad I decided to work with you. </p>
+
+            </div>
+
+
+            <div class="testimonial swiper-slide">
+                <div class="head">
+                <div class="profile">
+                  <div class="avatar">
+                    <img src="./images/Adrainn.png" />
+                  </div>
+                  <div class="info">
+                    <h4 style="color:black">Dike Adrain</h4>
+                    <small style="color:black"> C.F.O Sotechapps</small>
+                  </div>
+                </div>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                </div>
+    
+                <p style="color:black">It was so easy thanks to you. Compared to my old site, my new one is a lot faster and simpler to use. 
+                    I simply select the page, make the change, and click save. Thank you!</p>
+    
+                </div>
+
+
+                <div class="testimonial swiper-slide">
+                    <div class="head">
+                    <div class="profile">
+                      <div class="avatar">
+                        <img src="./images/Maxx.png" />
+                      </div>
+                      <div class="info">
+                        <h4 style="color:black">Max concepts</h4>
+                        <small style="color:black"> Fabric installations</small>
+                      </div>
+                    </div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    </div>
+        
+                    <p style="color:black">I've been using your services for about 3 years on multiple projects. I can't say enough about your professionalism and attention to detail.</p>
+        
+                    </div>
+
+
+                    <div class="testimonial swiper-slide">
+                        <div class="head">
+                        <div class="profile">
+                          <div class="avatar">
+                            <img src="./images/perlz.png" />
+                          </div>
+                          <div class="info">
+                            <h4 style="color:black">Perlz and gem beauty</h4>
+                            <small style="color:black"> Hair stylist and beautician</small>
+                          </div>
+                        </div>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        </div>
+            
+                        <p style="color:black">Working with you was an outstanding experience. We had 36% increase using your design ideas and services.</p>
+            
+                        </div>
+
+
+                        <div class="testimonial swiper-slide">
+                            <div class="head">
+                            <div class="profile">
+                              <div class="avatar">
+                                <img src="./images/Leopeige Cleaning.png" />
+                              </div>
+                              <div class="info">
+                                <h4 style="color:black">Leopeige Cleaning</h4>
+                                <small style="color:black"> Cleaning service</small>
+                              </div>
+                            </div>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            </div>
+                
+                            <p style="color:black">I was looking for a web who would create my website and you delivered exactly what I had in mind. It's always a pleasure working with you.</p>
+                
+                            </div>
+                        
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+   </section>
+   <br><br><br>
+
+   <section4 id="contact" class="reveal">
+     <div class="box" style="margin: 1rem 1rem;">
+        <h1 style="color:black; font-size: 2.8rem;">Contact us</h1>
+        <p style="color:black">Let's build it!</p>
+        <hr>
+    </div>
+
+    <div class="row">
+        <div class="col-1">
+         <form action="https://formspree.io/f/mleydrea" method="POST">
+                 <input type="text" id="name" name="Name"  placeholder="Name" class="me"/>
+                 <input type="email" id="email" name="Email"  placeholder="Email" class="me"/>
+            <div>
+                 <input type="digits" id="phone" name="Phone Number"  placeholder="Phone Number" class="me"/>
+                 <input type="text" id="state" name="State"  placeholder="State" class="me"/>
+            </div>
+             <div>
+                     <label for="Reason for contact" style="color:black;">Reason for contact:</label>
+                     <select name="Reason for contact">
+                         <option>Web development</option>
+                         <option>Graphics design</option>
+                         <option>App development</option>
+                         <option>Product video ads</option>
+                     </select>
+             </div>
+                 <textarea id="messageview" name="messageview" rows="6" cols="32" placeholder="messageview">
+              
+                 </textarea>
+             <div>
+                 <input type="submit" value="Send" style=" color: white;background-color: rgb(73, 73, 209);padding:12px 45px; font-weight: bold; border: none; border-radius: 4px; transition: .4s; cursor: pointer;" class="her"/>
+             </div> 
+         </form>
+        </div>
+     </div>
+   </section4> <br><br>
+
+   <div style="background-color: #F3F4F5; height: 8rem; text-align: center;padding-top: 2rem;" class="my">
+    <a href="https://www.instagram.com/leonardchristian47/" target="_blank"><i class="fa-brands fa-instagram" style="color: black;"></i></i></a>
+    <a href="https://wa.link/veelds" target="_blank"><i class="fa-brands fa-whatsapp" style="color: black;"></i></a>
+    <a href="https://www.linkedin.com/in/christian-elekwachi" target="_blank"><i class="fa-brands fa-linkedin-in" style="color: black;"></i></a>
+
+         <h4 style="text-align: center;font-weight: lighter; color: black;" id="bell">copyright © 2022 Syncie Digitals All Right Reserved   <a href="https://www.privacypolicies.com/live/5dfe26c5-263d-40bc-aee5-e18df4cf6074">privacy policy</a></h4>
+   </div>
+    
+
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+   <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+</html>
